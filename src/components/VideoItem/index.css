@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.item1 {
+  display: flex;
+  flex-direction: row;
+  width: 25vw;
+  height: 10vh;
+}
+
+.profile1 {
+  height: 20vh;
+  width: 25vw;
+}
+
+.profile2 {
+  height: 5vh;
+  width: 5vw;
+}
+
+.lastItem {
+  display: flex;
+  flex-direction: row;
+  width: 15vw;
+  justify-content: space-between;
+}
