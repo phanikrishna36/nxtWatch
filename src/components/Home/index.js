@@ -60,7 +60,7 @@ class Home extends Component {
 
   retry = () => {
     this.setState({isLoading: true, videosData: [], isError: false})
-    this.fetchData()
+    this.fetchedData()
   }
 
   renderFail = () => (
